@@ -45,7 +45,7 @@ Ahhoz, hogy a Shibboleth extension-t használni tudjuk telepíteni kell a Plugga
 
 A MediaWiki gyökér könyvtárában, az alábbi parancsok kell kiadni:
 
-* `git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PluggableAuth extensions`
+* `git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/PluggableAuth extensions`
 
 A MediaWiki LocalSettings.php-ben, írjuk fájl végére:
 
