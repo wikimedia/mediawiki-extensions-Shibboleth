@@ -21,17 +21,15 @@
     "config": {
         "ShibDisplayName": "displayName",
         "ShibEmail": "mail",
-        "ShibUsername": "eppn"
+        "ShibUsername": "eppn",
+        "Shibboleth_GroupMap": null,
+        "PluggableAuth_Class": "Shibboleth"
     },
     "AutoloadClasses": {
         "Shibboleth": "Shibboleth.class.php"
     },
     "Hooks": {
         "PluggableAuthPopulateGroups": ["Shibboleth::populateGroups"]
-    },
-    "config": {
-        "Shibboleth_GroupMap": null,
-        "PluggableAuth_Class": "Shibboleth"
     },
     "manifest_version": 1
 }
