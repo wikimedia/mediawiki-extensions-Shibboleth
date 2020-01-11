@@ -95,7 +95,7 @@ class Shibboleth extends PluggableAuth {
 
         // wgShibboleth_DisplayName check in LocalSettings.php
         if (empty($GLOBALS['wgShibboleth_DisplayName'])) {
-            throw new Exception(wfMessage('wg-empty-displayname')->plain());
+            throw new Exception(wfMessage('shibboleth-wg-empty-displayname')->plain());
         } else {
             $displayName = $GLOBALS['wgShibboleth_DisplayName'];
         }
@@ -118,7 +118,7 @@ class Shibboleth extends PluggableAuth {
 
         // wgShibboleth_Email check in LocalSettings.php
         if (empty($GLOBALS['wgShibboleth_Email'])) {
-            throw new Exception(wfMessage('wg-empty-email')->plain());
+            throw new Exception(wfMessage('shibboleth-wg-empty-email')->plain());
         } else {
             $mail = $GLOBALS['wgShibboleth_Email'];
         }
@@ -141,14 +141,14 @@ class Shibboleth extends PluggableAuth {
 
         // wgShibboleth_Username check in LocalSettings.php
         if (empty($GLOBALS['wgShibboleth_Username'])) {
-            throw new Exception(wfMessage('wg-empty-username')->plain());
+            throw new Exception(wfMessage('shibboleth-wg-empty-username')->plain());
         } else {
             $user = $GLOBALS['wgShibboleth_Username'];
         }
 
         // Username shibboleth attribute check
         if (empty(filter_input(INPUT_SERVER, $user))) {
-            throw new Exception(wfMessage('shib-attr-empty-username')->plain());
+            throw new Exception(wfMessage('shibboleth-attr-empty-username')->plain());
         } else {
 
             $username = filter_input(INPUT_SERVER, $user);
@@ -168,13 +168,13 @@ class Shibboleth extends PluggableAuth {
         $attr_name = $GLOBALS['wgShibboleth_GroupMap']['attr_name'];
 
         if (empty($attr_name)) {
-            throw new Exception(wfMessage('wg-empty-groupmap-attr')->plain());
+            throw new Exception(wfMessage('shibboleth-wg-empty-groupmap-attr')->plain());
         }
 
         $groups = filter_input(INPUT_SERVER, $attr_name);
 
         if (empty($groups)) {
-            throw new Exception(wfMessage('shib-attr-empty-groupmap-attr')->plain());
+            throw new Exception(wfMessage('shibboleth-attr-empty-groupmap-attr')->plain());
         }
 
         $authManager = AuthManager::singleton();

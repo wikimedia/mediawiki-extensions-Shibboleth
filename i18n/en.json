@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "northway"
-        ]
-    },
-    "shibboleth-desc": "Provides authentication using Shibboleth in conjunction with PluggableAuth",
-    "wg-empty-displayname": "The wgShibboleth_DisplayName config is empty in LocalSettings.php",
-    "wg-empty-email": "The wgShibboleth_Email config is empty in LocalSettings.php",
-    "wg-empty-username": "The wgShibboleth_Username config is empty in LocalSettings.php",
-    "wg-empty-groupmap-attr": "A wgShibboleth_GroupMap config is empty in LocalSettings.php",
-    "shib-attr-empty-username": "Shibboleth: username attribute is not set",
-    "shib-attr-empty-groupmap-attr": "Shibboleth: cannot find GroupMap attribute"
+	"@metadata": {
+		"authors": [
+			"northway"
+		]
+	},
+	"shibboleth-desc": "Provides authentication using Shibboleth in conjunction with PluggableAuth",
+	"shibboleth-wg-empty-displayname": "The wgShibboleth_DisplayName config is empty in LocalSettings.php",
+	"shibboleth-wg-empty-email": "The wgShibboleth_Email config is empty in LocalSettings.php",
+	"shibboleth-wg-empty-username": "The wgShibboleth_Username config is empty in LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "A wgShibboleth_GroupMap config is empty in LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: username attribute is not set",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: cannot find GroupMap attribute"
 }
