@@ -4,5 +4,6 @@
 			"Eduardo Addad de Oliveira"
 		]
 	},
+	"shibboleth-desc": "Fornece autenticação usando Shibboleth em conjunto com PluggableAuth",
 	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: não é possível encontrar o atributo GroupMap"
 }
