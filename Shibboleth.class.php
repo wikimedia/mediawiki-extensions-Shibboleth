@@ -1,6 +1,7 @@
 <?php
 
 use \MediaWiki\Auth\AuthManager;
+use MediaWiki\MediaWikiServices;
 
 /**
  * Description of Shibboleth auth class
@@ -59,7 +60,12 @@ class Shibboleth extends PluggableAuth {
      */
     public static function populateGroups(User $user) {
 
-        $authManager = AuthManager::singleton();
+        if ( method_exists( MediaWikiServices::class, 'getAuthManager' ) ) {
+            // MediaWiki 1.35+
+            $authManager = MediaWikiServices::getInstance()->getAuthManager();
+        } else {
+            $authManager = AuthManager::singleton();
+        }
         $groups = $authManager->getAuthenticationSessionData('shib_attr');
 
         if (!empty($groups)) {
@@ -177,7 +183,12 @@ class Shibboleth extends PluggableAuth {
             throw new Exception(wfMessage('shibboleth-attr-empty-groupmap-attr')->plain());
         }
 
-        $authManager = AuthManager::singleton();
+        if ( method_exists( MediaWikiServices::class, 'getAuthManager' ) ) {
+            // MediaWiki 1.35+
+            $authManager = MediaWikiServices::getInstance()->getAuthManager();
+        } else {
+            $authManager = AuthManager::singleton();
+        }
         $authManager->setAuthenticationSessionData('shib_attr', $groups);
     }
 
