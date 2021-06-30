@@ -75,18 +75,38 @@ class Shibboleth extends PluggableAuth {
             $sysop = $GLOBALS['wgShibboleth_GroupMap']['sysop'];
 
             if (in_array($sysop, $groups_array)) {
-                $user->addGroup('sysop');
+                if (method_exists(MediaWikiServices::class, 'getUserGroupManager')) {
+                    // MW 1.35+
+                    MediaWikiServices::getInstance()->getUserGroupManager()->addUserToGroup($user, 'sysop');
+                } else {
+                    $user->addGroup('sysop');
+                }
             } else {
-                $user->removeGroup('sysop');
+                if (method_exists(MediaWikiServices::class, 'getUserGroupManager')) {
+                    // MW 1.35+
+                    MediaWikiServices::getInstance()->getUserGroupManager()->removeUserFromGroup($user, 'sysop');
+                } else {
+                    $user->removeGroup('sysop');
+                }
             }
 
             // Check 'bureaucrat' in LocalSettings.php
             $bureaucrat = $GLOBALS['wgShibboleth_GroupMap']['bureaucrat'];
 
             if (in_array($bureaucrat, $groups_array)) {
-                $user->addGroup('bureaucrat');
+                if (method_exists(MediaWikiServices::class, 'getUserGroupManager')) {
+                    // MW 1.35+
+                    MediaWikiServices::getInstance()->getUserGroupManager()->addUserToGroup($user, 'bureaucrat');
+                } else {
+                    $user->addGroup('bureaucrat');
+                }
             } else {
-                $user->removeGroup('bureaucrat');
+                if (method_exists(MediaWikiServices::class, 'getUserGroupManager')) {
+                    // MW 1.35+
+                    MediaWikiServices::getInstance()->getUserGroupManager()->removeUserFromGroup($user, 'bureaucrat');
+                } else {
+                    $user->removeGroup('bureaucrat');
+                }
             }
         }
     }
