@@ -4,5 +4,11 @@
 			"McDutchie"
 		]
 	},
+	"shibboleth-desc": "Forni authentication usante Shibboleth in conjunction con PluggableAuth",
+	"shibboleth-wg-empty-displayname": "Le variabile de configuration <var>wgShibboleth_DisplayName</var> es vacue in LocalSettings.php",
+	"shibboleth-wg-empty-email": "Le variabile de configuration <var>wgShibboleth_Email</var> es vacue in LocalSettings.php",
+	"shibboleth-wg-empty-username": "Le variabile de configuration <var>wgShibboleth_Username</var> es vacue in LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "Le variabile de configuration <var>wgShibboleth_GroupMap</var> es vacue in LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: le attributo del nomine de usator non es definite",
 	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: impossibile trovar le attributo GroupMap"
 }
