@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"shibboleth-desc": "يوفر المصادقة باستخدام Shibboleth جنبًا إلى جنب مع PluggableAuth",
+	"shibboleth-wg-empty-displayname": "متغير التكوين <var>wgShibboleth_DisplayName</var> فارغ في LocalSettings.php",
+	"shibboleth-wg-empty-email": "متغير التكوين <var>wgShibboleth_Email</var> فارغ في LocalSettings.php",
+	"shibboleth-wg-empty-username": "متغير التكوين <var>wgShibboleth_Username</var> فارغ في LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "متغير التكوين <var>wgShibboleth_GroupMap</var> فارغ في LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: لم يتم تعيين سمة اسم المستخدم",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: لا يمكن العثور على سمة GroupMap"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"shibboleth-desc": "Fornece capacidades de autenticação usando Shibboleth em conjunto com o PluggableAuth",
+	"shibboleth-wg-empty-displayname": "A variável de configuração <var>wgShibboleth_DisplayName</var> está vazia no ficheiro LocalSettings.php",
+	"shibboleth-wg-empty-email": "A variável de configuração <var>wgShibboleth_Email</var> está vazia no ficheiro LocalSettings.php",
+	"shibboleth-wg-empty-username": "A variável de configuração <var>wgShibboleth_Username</var> está vazia no ficheiro LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "A variável de configuração <var>wgShibboleth_GroupMap</var> está vazia no ficheiro LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: o atributo do nome de utilizador não está definido",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: não foi encontrado o atributo GroupMap"
+}
