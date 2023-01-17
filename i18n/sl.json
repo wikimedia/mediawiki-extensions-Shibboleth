@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"shibboleth-desc": "Zagotavlja avtentikacijo s SimpleSAMLphp v kombinaciji s PluggableAuth",
+	"shibboleth-wg-empty-displayname": "Konfiguracijska spremenljivka <var>wgShibboleth_DisplayName</var> je v LocalSettings.php prazna",
+	"shibboleth-wg-empty-email": "Konfiguracijska spremenljivka <var>wgShibboleth_Email</var> je v LocalSettings.php prazna",
+	"shibboleth-wg-empty-username": "Konfiguracijska spremenljivka <var>wgShibboleth_Username</var> je v LocalSettings.php prazna",
+	"shibboleth-wg-empty-groupmap-attr": "Konfiguracijska spremenljivka <var>wgShibboleth_DisplayName</var> je v LocalSettings.php prazna",
+	"shibboleth-attr-empty-username": "Shibboleth: atribut uporabniškega imena ni nastavljen",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: atributa GroupMap ni mogoče najti"
+}
