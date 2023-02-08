@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"shibboleth-desc": "אספקת אימות באמצעות Shibboleth בשילוב עם PluggableAuth",
+	"shibboleth-wg-empty-displayname": "משתנה התצורה <var>wgShibboleth_DisplayName</var> ריק ב־LocalSettings.php",
+	"shibboleth-wg-empty-email": "משתנה התצורה <var>wgShibboleth_Email</var> ריק ב־LocalSettings.php",
+	"shibboleth-wg-empty-username": "משתנה התצורה <var>wgShibboleth_Username</var> ריק ב־LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "משתנה התצורה <var>wgShibboleth_GroupMap</var> ריק ב־LocalSettings.php",
+	"shibboleth-attr-empty-username": "שיבולת: מאפיין שם המשתמש אינו מוגדר",
+	"shibboleth-attr-empty-groupmap-attr": "שיבולת: לא ניתן למצוא את המאפיין GroupMap"
+}
