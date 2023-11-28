@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97"
+		]
+	},
+	"shibboleth-desc": "Menyediakan pengesahan menggunakan Shibboleth bersama-sama dengan PluggableAuth",
+	"shibboleth-wg-empty-displayname": "Pembolehubah konfigurasi <var>wgShibboleth_DisplayName</var> kosong dalam LocalSettings.php",
+	"shibboleth-wg-empty-email": "Pembolehubah konfigurasi <var>wgShibboleth_Email</var> kosong dalam LocalSettings.php",
+	"shibboleth-wg-empty-username": "Pembolehubah konfigurasi <var>wgShibboleth_Username</var> kosong dalam LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "Pembolehubah konfigurasi <var>wgShibboleth_DisplayName</var> kosong dalam LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: atribut nama pengguna tidak ditetapkan",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: tidak dapat mencari atribut GroupMap"
+}
