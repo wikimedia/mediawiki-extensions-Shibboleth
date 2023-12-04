@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"shibboleth-desc": "Biedt authenticatie met behulp van Shibboleth in combinatie met PluggableAuth",
+	"shibboleth-wg-empty-displayname": "De configuratievariabele <var>wgShibboleth_DisplayName</var> is leeg in LocalSettings.php",
+	"shibboleth-wg-empty-email": "De configuratievariabele <var>wgShibboleth_Email</var> is leeg in LocalSettings.php",
+	"shibboleth-wg-empty-username": "De configuratievariabele <var>wgShibboleth_Username</var> is leeg in LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "De configuratievariabele <var>wgShibboleth_DisplayName</var> is leeg in LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: gebruikersnaam-attribuut is niet ingesteld",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: kan het GroupMap-attribuut niet vinden"
+}
