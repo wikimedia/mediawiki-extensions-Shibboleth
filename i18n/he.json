@@ -9,6 +9,6 @@
 	"shibboleth-wg-empty-email": "משתנה התצורה <var>wgShibboleth_Email</var> ריק ב־LocalSettings.php",
 	"shibboleth-wg-empty-username": "משתנה התצורה <var>wgShibboleth_Username</var> ריק ב־LocalSettings.php",
 	"shibboleth-wg-empty-groupmap-attr": "משתנה התצורה <var>wgShibboleth_GroupMap</var> ריק ב־LocalSettings.php",
-	"shibboleth-attr-empty-username": "שיבולת: מאפיין שם המשתמש אינו מוגדר",
-	"shibboleth-attr-empty-groupmap-attr": "שיבולת: לא ניתן למצוא את המאפיין GroupMap"
+	"shibboleth-attr-empty-username": "שיבולת: תכונת username (שם המשתמש) אינה מוגדרת",
+	"shibboleth-attr-empty-groupmap-attr": "שיבולת: לא ניתן למצוא את התכונה GroupMap"
 }
