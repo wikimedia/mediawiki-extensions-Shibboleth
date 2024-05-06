@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"沈澄心"
+		]
+	},
+	"shibboleth-attr-empty-username": "Shibboleth：未设置用户名属性",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth：找不到GroupMap属性"
+}
