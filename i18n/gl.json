@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"shibboleth-desc": "Proporciona autentificación usando Shibboleth xunto con PluggableAuth",
+	"shibboleth-wg-empty-displayname": "A variable de configuración <var>wgShibboleth_DisplayName</var> está baleira en LocalSettings.php",
+	"shibboleth-wg-empty-email": "A variable de configuración <var>wgShibboleth_Email</var> está baleira en LocalSettings.php",
+	"shibboleth-wg-empty-username": "A variable de configuración <var>wgShibboleth_Username</var> está baleira en LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "A variable de configuración <var>wgShibboleth_GroupMap</var> está baleira en LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: o atributo de nome de usuario non está definido",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: non se pode atopar o atributo GroupMap"
+}
