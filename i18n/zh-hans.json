@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Peterxy12",
 			"沈澄心"
 		]
 	},
+	"shibboleth-desc": "提供使用Shibboleth与PluggableAuth结合的验证",
+	"shibboleth-wg-empty-displayname": "在LocalSettings.php里的<var>wgShibboleth_DisplayName</var>设置变数为空",
+	"shibboleth-wg-empty-email": "在LocalSettings.php里的<var>wgShibboleth_Email</var>设置变数为空",
+	"shibboleth-wg-empty-username": "在LocalSettings.php里的<var>wgShibboleth_Username</var>设置变数为空",
+	"shibboleth-wg-empty-groupmap-attr": "在LocalSettings.php里的<var>wgShibboleth_GroupMap</var>设置变数为空",
 	"shibboleth-attr-empty-username": "Shibboleth：未设置用户名属性",
 	"shibboleth-attr-empty-groupmap-attr": "Shibboleth：找不到GroupMap属性"
 }
