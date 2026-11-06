@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Winston Sung"
-		]
-	},
-	"shibboleth-desc": "Omogućuje potvdu identiteta s Shibboleth koja radi zajedno s PluggableAuth"
-}
